@@ -1,18 +1,70 @@
 
-Smart Classroom & Timetable Scheduler - Simple Starter App
----------------------------------------------------------
-What's included:
-- PHP (mysqli) backend (simple procedural style)
-- HTML/CSS frontend (no frameworks)
-- DB SQL file (smart_scheduler_full.sql) - import into phpMyAdmin
-- Basic auth (login/logout) and simple CRUD for Departments & Subjects
-- Timetable generation stub: /api/generate_timetable.php (returns JSON placeholder)
 
-How to use:
-1. Import the provided SQL file into your MySQL (phpMyAdmin).
-2. Place the project in your PHP server (e.g. htdocs/smart_scheduler_app).
-3. Edit config.php to set DB credentials.
-4. Open index.php in browser.
+# Planera – Smart Time Table Scheduler
 
-Notes:
-- This is a starter skeleton. You will need to extend validation, security, and UI as needed.
+## Overview
+
+Planera is a simple scheduling tool that helps generate timetables automatically.
+It takes subjects and time slots as input and creates a schedule without conflicts.
+
+---
+
+## Features
+
+* Generates conflict-free timetables
+* Handles subject and time slot allocation
+* Reduces manual effort in scheduling
+* Simple logic-based implementation
+
+---
+
+## Tech Used
+
+* Python
+
+---
+
+## How it works
+
+User enters subjects and available time slots → system processes input → timetable is generated without overlaps
+
+---
+
+## How to run
+
+Clone the repository:
+
+```bash id="nq7z2k"
+git clone https://github.com/your-username/planera.git
+cd planera
+```
+
+Run the program:
+
+```bash id="v3p1xr"
+python app.py
+```
+
+---
+
+## Project Structure
+
+```id="y7k2fd"
+planera/
+│── app.py  
+│── README.md  
+```
+
+---
+
+## Note
+
+This project was built to understand basic scheduling logic and automate a common task.
+
+---
+
+## Author
+
+Dhruv Parmar
+
+---
